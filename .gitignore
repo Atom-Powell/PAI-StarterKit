@@ -1,0 +1,7 @@
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Scratch installs produced by bootstrap during testing
+/scratch/

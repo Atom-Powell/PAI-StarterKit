@@ -1,0 +1,13 @@
+# Obsidian workspace/cache (personal, not worth versioning)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Keep the vault's own structure; ignore transient exports
+/exports/

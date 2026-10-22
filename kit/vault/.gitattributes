@@ -1,0 +1,11 @@
+# Leave line endings alone.
+#
+# `* text=auto` (the reflexive choice here) is what CAUSES the wall of "LF will be
+# replaced by CRLF" warnings on a fresh `git add`: it asks git to normalize, and
+# git dutifully announces every file it intends to rewrite. On a single-user,
+# single-platform vault there is nothing to normalize FOR, so the warnings are
+# pure noise, and a first run that looks like it threw 28 warnings teaches the
+# user to stop reading this tool's output.
+#
+# Windows-only by design (see the README), so `-text` costs nothing.
+* -text

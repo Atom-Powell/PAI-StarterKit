@@ -1,0 +1,10 @@
+{
+  "_comment": "Vault configuration. The vault path itself is NOT here: the scripts derive it from their own location (50-Meta/scripts/../..), so it can never go stale. These are the values that genuinely vary between installs. Every key is optional; each has a fallback, so a missing or malformed config degrades rather than breaks.",
+  "_fallbacks": "workspace_root -> the vault's parent directory. git_branch -> `git rev-parse --abbrev-ref HEAD`, then 'main'. commit_identity -> the repo's configured git identity.",
+  "workspace_root": "{{WORKSPACE_ROOT}}",
+  "git_branch": "{{GIT_BRANCH}}",
+  "commit_identity": {
+    "name": "drift-scan",
+    "email": "{{COMMIT_EMAIL}}"
+  }
+}
