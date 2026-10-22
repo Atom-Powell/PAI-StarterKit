@@ -16,6 +16,7 @@ markdown tree that is also an Obsidian vault and a git repo.
 
 | Folder | Holds | Enter |
 |--------|-------|-------|
+| `Home.md` | Your Obsidian dashboard: accuracy, projects, open threads | [[Home]] |
 | `00-Inbox` | Unsorted capture and generated **drift reports** | [[00-Inbox]] |
 | `10-Projects` | One note per active repo, frontmatter-stamped | [[10-Projects]] |
 | `20-Areas` | Ongoing lanes of responsibility (define your own) | [[20-Areas]] |

@@ -1,0 +1,64 @@
+{
+  "collapse-filter": false,
+  "search": "-path:_templates -path:90-Archive -file:drift-report",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:10-Projects",
+      "color": {
+        "a": 1,
+        "rgb": 4886745
+      }
+    },
+    {
+      "query": "path:20-Areas",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "path:30-Knowledge",
+      "color": {
+        "a": 1,
+        "rgb": 6076508
+      }
+    },
+    {
+      "query": "path:40-Sessions",
+      "color": {
+        "a": 1,
+        "rgb": 15773006
+      }
+    },
+    {
+      "query": "path:00-Inbox",
+      "color": {
+        "a": 1,
+        "rgb": 14242639
+      }
+    },
+    {
+      "query": "path:50-Meta",
+      "color": {
+        "a": 1,
+        "rgb": 8947848
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1
+}

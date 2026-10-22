@@ -47,10 +47,10 @@ summarizing your projects. Unchecked content there is worse than an empty folder
 
 ## Adding a new project
 
-1. Copy `_templates/project.md` into `10-Projects`.
-2. Name the file after the project folder.
-3. Set `repo`, `status`, `last_verified` and `source_paths`.
-4. Write the two sentences under What it is.
+1. In Obsidian, right-click `10-Projects` and choose New note.
+2. Name it exactly after the project folder.
+3. Press Alt+T and choose `project`. The template fills in the date and `repo`.
+4. Check `repo` and `source_paths`, then write the two sentences under What it is.
 
 That is all. The next session started in that folder gets the note.
 
@@ -83,6 +83,9 @@ everything that needs your decision. It will not rewrite your notes behind your 
 4. **Date your decisions.** An undated decision cannot be judged later.
 5. **Nothing is lost by deleting.** The notes are in git. Anything you remove can be
    brought back.
+
+Your `Home` note in Obsidian shows all of this at a glance; see
+[07 Working in Obsidian](07-working-in-obsidian.md).
 
 ## Next
 

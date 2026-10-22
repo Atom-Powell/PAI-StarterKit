@@ -1,11 +1,11 @@
 ---
 type: session
-date: <YYYY-MM-DD>
+date: <% tp.date.now("YYYY-MM-DD") %>
 projects: []
 tags: [session]
 ---
 
-# <YYYY-MM-DD> <topic>
+# <% tp.file.title %>
 
 ## Context
 

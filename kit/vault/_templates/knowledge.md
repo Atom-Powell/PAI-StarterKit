@@ -1,11 +1,11 @@
 ---
 type: knowledge
-last_verified: <YYYY-MM-DD>
+last_verified: <% tp.date.now("YYYY-MM-DD") %>
 source_paths: []
 tags: [knowledge]
 ---
 
-# <Concept>
+# <% tp.file.title %>
 
 One atomic, evergreen idea. State it plainly in the first paragraph so the note
 is useful at a glance.
@@ -19,5 +19,5 @@ note.
 
 ## Links
 
+- Came from: [[ ]]
 - Related: [[ ]]
-- Source: 

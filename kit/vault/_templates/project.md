@@ -1,13 +1,13 @@
 ---
 type: project
-repo: {{WORKSPACE_ROOT}}\<NAME>
+repo: {{WORKSPACE_ROOT}}\<% tp.file.title %>
 status: active
-last_verified: <YYYY-MM-DD>
+last_verified: <% tp.date.now("YYYY-MM-DD") %>
 source_paths: [README.md]
 tags: [project]
 ---
 
-# <NAME>
+# <% tp.file.title %>
 
 ## What it is
 
@@ -25,9 +25,9 @@ Where things stand right now. Update this when reality changes.
 
 Append dated decisions here so they outlive the session that made them.
 
-- **<YYYY-MM-DD>**: decision, and the reason for it.
+- **<% tp.date.now("YYYY-MM-DD") %>**: decision, and the reason for it.
 
 ## Links
 
-- Repo: `{{WORKSPACE_ROOT}}\<NAME>`
+- Repo: `{{WORKSPACE_ROOT}}\<% tp.file.title %>`
 - Related: [[ ]]

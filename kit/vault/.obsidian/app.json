@@ -1,1 +1,8 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-Inbox",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "visible",
+  "trashOption": "local"
+}

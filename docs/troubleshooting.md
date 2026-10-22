@@ -94,6 +94,22 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 - If a merge conflict is reported, open the vault folder in a terminal, run
   `git status`, and resolve the files it names. This is rare with a single user.
 
+## Obsidian: Home shows code instead of tables
+
+Dataview is not installed or not enabled. Settings, Community plugins, Browse,
+Dataview, Install, then Enable. If tables are present but empty, that section has
+nothing to show yet (for example no drift report exists until a scan has run).
+
+## Obsidian: template shows `<% ... %>` unfilled
+
+Templater is not installed or enabled, or you copied the template file by hand
+instead of inserting it. Use Alt+T on a note that already has its final name.
+
+## Obsidian: a new project note has the wrong repo path
+
+The path is your workspace folder plus the note's name. If the note name is not
+exactly the project folder name, edit the `repo:` line.
+
 ## The reports list a project as "untracked" that I don't want a note for
 
 Add it to `50-Meta/Skipped-Repos.md` under `## Skipped: not a project` as

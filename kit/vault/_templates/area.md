@@ -1,10 +1,10 @@
 ---
 type: area
-updated: <YYYY-MM-DD>
-tags: [area, <lane>]
+updated: <% tp.date.now("YYYY-MM-DD") %>
+tags: [area]
 ---
 
-# <Area>
+# <% tp.file.title %>
 
 One sentence: what this lane of responsibility is, and why it is a lane rather
 than a project. Areas are maintained, not finished.

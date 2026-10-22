@@ -94,17 +94,20 @@ The kit ships their settings but not their code, so you always get current
 versions. The Git plugin is what keeps your notes backed up: it commits every ten
 minutes and pushes to GitHub. **If Obsidian is closed, that does not happen.**
 
-**You should see:** `PAI` in the file list, and the three plugins in the enabled
+The `Home` note is your dashboard and needs Dataview. How to use it is in
+[07 Working in Obsidian](07-working-in-obsidian.md).
+
+**You should see:** `Home` and `PAI` in the file list, and the three plugins in the enabled
 list. If the Git plugin reports an error, check that Step 4 worked.
 
 ## Step 6. Restart Claude Code and prove the hook works
 
 Close any open Claude Code sessions. Hooks are read when a session starts.
 
-Now make a first project note. In Obsidian, copy `_templates/project.md` into
-`10-Projects` and rename it to match one of your real projects (for example
-`MyApp.md`), then edit the top section (the "frontmatter" between the `---`
-lines):
+Now make a first project note. In Obsidian, right-click the `10-Projects` folder,
+choose **New note**, and name it exactly like one of your real project folders (for
+example `MyApp`). Press **Alt+T**, and choose `project`. The template fills in the
+top section (the "frontmatter" between the `---` lines) for you:
 
 ```yaml
 ---
@@ -116,6 +119,8 @@ source_paths: [README.md]
 tags: [project]
 ---
 ```
+
+Check it, because the hook depends on it:
 
 - `repo` must be the real, full path to the project folder.
 - `last_verified` must be today's date as `YYYY-MM-DD`.

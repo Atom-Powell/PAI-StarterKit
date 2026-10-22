@@ -49,6 +49,7 @@ The full, slow, step-by-step version is [docs/02-first-hour.md](docs/02-first-ho
 | [04 How it works](docs/04-how-it-works.md) | You want to understand the three moving parts |
 | [05 Make it yours](docs/05-make-it-yours.md) | Customizing rules, areas and style |
 | [06 Growing into it](docs/06-growing-into-it.md) | You outgrew the starter |
+| [07 Working in Obsidian](docs/07-working-in-obsidian.md) | Right after your first hour: how to live in the vault |
 | [Glossary](docs/glossary.md) | A word in the guide is new to you |
 | [Troubleshooting](docs/troubleshooting.md) | Something did not work |
 
